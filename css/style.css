@@ -47,7 +47,7 @@ li{
 .header{
     width:100%;
     height: 95vh;
-    background-image:linear-gradient(rgba(142, 9, 230, 0.726), rgba(238, 8, 188, 0.644)), url("../image/bg.jpg");
+    background-image:linear-gradient(rgba(142, 9, 230, 0.526), rgba(238, 8, 188, 0.444)), url("../image/bg.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
