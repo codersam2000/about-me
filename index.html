@@ -10,7 +10,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body data-aos-easing="ease-in-out-sine" data-aos-duration="400" data-aos-delay="0" onload="load()">
-
+<!-----loading------>
+    <div id="load"></div>
+<!-----loading------>
 
 <!-- right site social icon     -->
 <div class="soial-sidebar" data-aos="zoom-out-left" data-aos-duration="1500">
@@ -151,7 +153,7 @@
                 <div class="col-md-3 col-sm-6" data-aos="fade-up" data-aos-duration="800">
                     <div class="srv-item" >
                         <h4>Web Development</h4> <br>
-                        <p><i class="fa fa-codopen" aria-hidden="true"></i>hi</p>
+                        <p><i class="fa fa-codopen" aria-hidden="true"></i></p>
                         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, consectetur facilis vero harum mollitia tenetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                 </div>
@@ -330,6 +332,9 @@
       
     </script>
     <script>
+        function load(){
+            document.getElementById("load").style.display="none";
+        }
         window.onscroll = function(){scrollBody()};
         function scrollBody(){
             if(window.scrollY > 200 ){
