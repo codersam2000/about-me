@@ -8,6 +8,14 @@ body{
     margin:0;
     padding:0;
 }
+#load{
+    height:100vh;
+    width:100%;
+    position:absolute;
+    background-iamge: url(loading.gif);
+    background-position:center;
+    background-size:cover;
+}
 a{
     text-decoration: none;
 }
